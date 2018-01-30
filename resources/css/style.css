@@ -10,7 +10,7 @@ h1 {
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 18px;
   font-weight: bold;
   color: white;
 }
@@ -20,7 +20,19 @@ h2 {
   font-weight: bold;
 }
 
-}
+
 #Group1{
-    background-image: "./resources/images/the-flatiron-building.png";
+    background-color:black;
+    background-image: url("./resources/images/the-flatiron-building.png");
+}
+
+.Designed{
+    background-image: url=("./resources/images/the-flatiron-building.png");
+}
+
+.footer{
+  font-size: 11px;
+  color: white;
+  background-color: dimgrey;
+  text-align: left;
 }
